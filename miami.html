@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Building a Culture of Accessible and Accountable Data Sharing</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css" id="theme">
+		<link rel="stylesheet" href="css/fullscreen-img.css">
+		
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Building a Culture of<br> Accessible and <br>Accountable <br>Data Sharing</h1>
+					<p>
+						<small>Created by <a href="mailto:tmartin@buildings.nyc.gov">Timothy Martin</a> / Chief Analytics Officer</a></small>
+					</p>
+				</section>
+
+				<section>
+					<section id="fragments">
+						<q>Organizations all share one specific challenge...</q>
+						<br>
+						<br>
+						<h1 class="fragment">Sharing Information</h1>
+					</section>
+				</section>
+
+<!-- 							
+				<section>
+					<section id="fragments">
+						<q>If data sharing improves insights and outcomes</q>
+						<br>
+						<br>
+						<h2 class="fragment">then why is sharing data so hard?</h2>
+					</section>
+				</section> -->
+					
+
+				<section data-background="#FF9666">
+					<h2>What are the challenges with data sharing initiatives?</h2>
+				</section>
+
+				<section>
+					<h2>Technical Challenges</h2>
+					<ul>
+						<li>Dealing with legacy systems</li>
+						<li>Bad data quality</li>
+						<li>Limited metadata documentation</li>
+						<li>Obscure business logic</li>
+						<br>
+					</ul>
+
+					<pre><code class="hljs" data-trim contenteditable>
+						CASE WHEN "- Key Job Information (Job Number and Status)".
+	"Job Type" = 'NB' THEN "- 8 - Additional Information".
+	"Total Construction Floor Area"  *148 ELSE  "
+	- Job Filing Facts"."Estimated Job Cost" END 
+					</code></pre>	
+				</section>
+
+
+
+
+
+
+
+
+				<section>
+					<h2>Cultural Challenges</h2>
+					<ul>
+						<li>Staff are not comfortable with the concept</li>
+						<li>Sharing data may expose questionable logic</li>
+						<li>Multiple versions of the truth</li>
+					</ul>
+				</section>
+				
+				
+				<section>	
+				<h2>Multiple versions of the truth</h2>
+				<iframe frameborder=0 width=100% height=500 marginheight=0 marginwidth=0 scrolling=no src="http://timothymartin76.github.io/Visualized_Contacts/"></iframe>
+				</section>
+				
+				
+			
+				<section>
+					<h2>Cultural Challenges</h2>
+					<ul>
+						<li>Keeping everyone either formally or informally, on the same page</li>
+						<li>Effective communication and consensus building</li>
+					</ul>
+				</section>
+				
+
+					<section>
+					<h2>Cultural Challenges</h2>
+					<ul>
+						<li>Senior staff buy-in is critical</li>
+						<li>Analytics team must push narrative that manual approaches are unsustainable</li>
+						<li>More sharing = More insights</li>
+						<li>Must tie insights to business outcomes</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Privacy Issues</h2>
+					<ul>
+						<li>Potential exposure of PII</li>
+						<li>Balance customer protections with transparency goals</li>
+						<li>Anonymization that can’t be easily reversed</li>
+						<li>Example: <a href="https://arstechnica.com/tech-policy/2014/06/poorly-anonymized-logs-reveal-nyc-cab-drivers-detailed-whereabouts/">TLC taxi driver medallion encryption flaw</a></li>
+					</ul>
+				</section>
+
+				
+				
+				 <section fullscreen-img="img/cabs.PNG">
+<!-- 				<h1>A Fantastic Title</h1>
+				<h2>Interesting subtitle</h2> -->
+				</section>
+
+
+
+				<section data-background="#207178">
+					<h2>What are the benefits of data sharing initiatives?</h2>
+				</section>
+
+				<section>
+					<h2>Benefits - Discovery</h2>
+					<ul>
+						<li>Sharing data can help accelerate discovery of new insights</li>
+						<li>Empower more end users to analyze data in different ways</li>
+						<!-- joining with new datasets for different insights -->
+					</ul>
+				</section>
+				
+				
+				<section fullscreen-img="img/FLOOD_HAZARD6.PNG">
+				<h2>New Insights</h2>
+				</section>
+				
+
+				<section>
+					<h2>Benefits - Consensus</h2>
+					<ul>
+						<li>Builds consensus around challenging questions</li>
+						<li>Forces organization to develop common methods</li>
+						<li>Makes analysis and reporting more authoritative</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Benefits - Scale</h2>
+					<ul>
+						<li>Self-service analytics by non-quantitatively informed staff frees up analytics staff to work on more advanced projects</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Benefits - Transparency</h2>
+					<ul>
+						<li>Staff must be more accountable for their work</li>
+						<li>Leads to better documentation of methodology</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Benefits - Automation</h2>
+					<ul>
+						<li>Data sharing forces automation</li>
+						<li>Algorithms need to be scripted</li>
+					</ul>
+				</section>
+
+				<section data-background="#538EA6">
+					<h2>Transition from Siloes to Federated Analytics</h2>
+				</section>
+
+				<section>
+					<h2>Transition - Initial Setbacks</h2>
+					<ul>
+						<li>Sharing data technically is not as much the problem as making sense of it</li>
+						<li>Analytics insights must connect with the core business issues</li>
+						<li>Business experts may have technical gaps</li>
+						<li>Need to meet in the middle</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Transition - Training</h2>
+					<ul>
+						<li>Knowledge transfer</li>
+						<li>Growing pains with getting analytics staff up to speed with the business side (and vice-versa)</li>
+						<li>Requires veteran analysts to train other analysts on data elements and reporting methods</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Transition - Data Dictionaries</h2>
+					<ul>
+						<li>Critical to have; however, often do not provide total insight into analytics operations</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Transition - User Guides</h2>
+					<ul>
+						<li>Critical from an analytics perspective</li>
+						<li>Train staff how to use data</li>
+						<li>Create conversation around methodology</li>
+						<li>Work toward development of Analytics CoE</li>
+					</ul>
+				</section>
+
+				<section data-background="#2C5A7A">
+					<h2>External Data Sharing </h2>
+					<ul>
+						<li>Prepare for a high level of scrutiny from all sides</li>
+						<li>Ensure that internal processes and methods are well documented</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>External Data Sharing</h2>
+					<ul>
+						<li>#OpenData</li>
+						<li>Requirement to publish all government data on a web-based portal</li>
+						<li>Used by data aggregators and civic technologists</li>
+						<li>Positive and negative outcomes</li>
+					</ul>
+				</section>
+				
+				
+				<section fullscreen-img="img/opendata.PNG">
+				<h2>Open Data</h2>
+				</section>
+
+				<section>
+					<h2>External Data Sharing</h2>
+					<ul>
+						<li>#OpenAnalytics</li>
+						<li>Possibly the next big initiative in government data sharing</li>
+						<li>Driven by increased scrutiny on bias in algorithms</li>
+						<li>Benefit:  External groups can help evaluate assumptions and potential bias</li>
+					</ul>
+				</section>
+				
+				<section>	
+				<!-- <h2>New Insights</h2> -->
+				<iframe frameborder=0 width=100% height=625 marginheight=0 marginwidth=0 scrolling=no src="https://nycdob.github.io/DOB_Dashboards/layouts/two-and-one/Active_ConstructionTM_2"></iframe>
+				</section>
+				
+
+				<section>
+					<h2>External Data Sharing</h2>
+					<ul>
+						<li>Message your data</li>
+						<li>...before someone else does</li>
+					</ul>
+				</section>
+				
+				<section fullscreen-img="img/NYTIMES.PNG">
+				<h2>Message your data!</h2>
+				</section>
+				
+								
+
+				<section>
+					<h2>Thank you!</h2>
+				</section>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				
+
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'lib/js/fullscreen-img.js' },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
